@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatin | Portfolio</title>
+    <!-- Method 1: External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Method 2: Internal CSS -->
+    <style>
+        .highlight-text {
+            color: #0077cc;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Jatin Gour</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero / Home -->
+    <section id="hero">
+        <div class="hero-content">
+            <!-- Circular Photograph -->
+            <img src="images/jatinpp.jpeg" alt="Jatin Profile" class="circular-photo">
+            <!-- Method 3: Inline CSS -->
+            <h1 style="letter-spacing: 2px;">Hello, I'm <span class="highlight-text">Jatin</span></h1>
+            <p>Artificial Intelligence & Data Science Innovator | Video Creator | Tech Community Leader</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <p>I am a developer currently pursuing my B.Tech in Artificial Intelligence and Data Science. I have a deep interest in AI theoretical concepts, such as problem-solving agents and probabilistic models like Bayes' rule. Alongside my technical pursuits in software development, Java, and database management, I am an experienced content creator specializing in video shooting and professional video editing.</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Technical & Creative Skills</h2>
+        <div class="skills-flex">
+            <div class="skill-badge">Java</div>
+            <div class="skill-badge">Database Queries</div>
+            <div class="skill-badge">AI & Machine Learning</div>
+            <div class="skill-badge">HTML/CSS/JS</div>
+            <div class="skill-badge">Video Editing & Shooting</div>
+            <div class="skill-badge">Content Writing</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <!-- Identity Card Container 1 -->
+            <div class="card">
+                <h3>College Bus Tracking Website </h3>
+                <p>Developed full documentation and structural outlines for College bus tracking system to know about exact location using Machine Learning.</p>
+            </div>
+            <!-- Identity Card Container 2 -->
+            <div class="card">
+                <h3>SDR Community Leadership</h3>
+                <p>Lead the SDR coding community. Organized cross-functional recruitment drives covering technical, UI design, and social media management teams.</p>
+            </div>
+            <!-- Identity Card Container 3 -->
+            <div class="card">
+                <h3>Creative Video Campaigns</h3>
+                <p>Produced promotional video assets for a Google Student Ambassador role and created professional IPL-style cricket sports poster tutorials.</p>
+            </div>
+            <!-- Identity Card Container 4 -->
+            <div class="card">
+                <h3>Online Hotel Booking website</h3>
+                <p>a online hotel website for a specific hotel, used to bokk rooms, banquet hall,resort booking,movie ticket booking</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-details">
+            <div class="education-list">
+                <div class="education-item">
+                    <div class="edu-header">
+                        <h3 class="edu-degree">B.Tech — Artificial Intelligence &amp; Data Science</h3>
+                        <div class="edu-institution">CGC University, Mohali</div>
+                    </div>
+                    <div class="edu-meta">2024 — Present · 5th Semester</div>
+                    <ul class="edu-bullets">
+                        <li>Relevant coursework: Machine Learning, Data Analysis, Probability, Statistics, Full Stack developing</li>
+                        <li>Focus: applied ML projects, real problem based project, data pipelines and model evaluation</li>
+                    </ul>
+                </div>
+
+                <div class="education-item">
+                    <div class="edu-header">
+                        <h3 class="edu-degree">Diploma in Computer</h3>
+                        <div class="edu-institution">[Mahatma Gandhi Proyadhik Institution]</div>
+                    </div>
+                    <div class="edu-meta">Score: 80%</div>
+                    <ul class="edu-bullets">
+                        <li>Core subjects: MS OFFICE(Word,Excel,Powerpoint,Presentation,
+                            Powerpoint,Typing etc.)</li>
+                    </ul>
+                </div>
+
+                <div class="education-item">
+                    <div class="edu-header">
+                        <h3 class="edu-degree">High School (10th &amp; 12th)</h3>
+                        <div class="edu-institution">R.N.T PSSS School, Jawalamukhi — H.P. Board</div>
+                    </div>
+                    <div class="edu-meta">Completed: [2024]</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact (Blue-Themed) -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+
+        <div class="quick-contact">
+            <a class="quick-contact-btn whatsapp"
+               href="https://wa.me/8580465317?text=Hi%20Jatin%2C%20I%20want%20to%20connect!"
+               target="_blank" rel="noopener noreferrer"
+               style="background:#25D366; color:#fff; border-radius:8px; padding:10px 16px; display:inline-flex; align-items:center; gap:8px; text-decoration:none;">
+                <span>💬</span>
+                WhatsApp
+            </a>
+
+            <a class="quick-contact-btn linkedin"
+               href="https://www.linkedin.com/in/jatin-gour-5b8109346/"
+               target="_blank" rel="noopener noreferrer"
+               style="background:#0A66C2; color:#fff; border-radius:8px; padding:10px 16px; display:inline-flex; align-items:center; gap:8px; text-decoration:none;">
+                <span>LinkedIn</span>
+            </a>
+
+            <a class="quick-contact-btn instagram"
+               href="https://www.instagram.com/jatinxgourr?igsh=cWFtcHFldzg4eTBp"
+               target="_blank" rel="noopener noreferrer"
+               style="background: radial-gradient(circle at 30% 30%, #fccc63 0%, #fd5949 45%, #d6249f 65%, #285AEB 90%); color:#fff; border-radius:8px; padding:10px 16px; display:inline-flex; align-items:center; gap:8px; text-decoration:none;">
+                <span>📸</span>
+                Instagram
+            </a>
+
+            <a class="quick-contact-btn github"
+               href="https://github.com/JATINXGOUR1111"
+               target="_blank" rel="noopener noreferrer"
+               style="background:#181717; color:#fff; border-radius:8px; padding:10px 16px; display:inline-flex; align-items:center; gap:8px; text-decoration:none;">
+                <span>🐙</span>
+                GitHub
+            </a>
+        </div>
+
+        <form id="contactForm" onsubmit="return validateForm(event)">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn-submit">Send Message</button>
+            <p id="formFeedback"></p>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Jatin Gour. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/jatin-gour-5b8109346/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            | <a href="#">GitHub</a> | <a href="#">YouTube</a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
